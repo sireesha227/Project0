@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <ul class="navbar">
+            <li class="navbar-item"><a href="index.html">Google</a></li>
+        </ul>
+    </div>
+    <div class="advance-google">
+        <p class="advanced-search">Advanced Search</p>
+    </div>
+    <div class="border"></div>
+    <div class = "div-advanced">
+        <p class="advanced-search2">Find pages with... </p>
+        <form action="https://www.google.com/search">
+            <div  class = "advance-input">
+                <div class="advance-left-labels">
+                    <p class="label-font">all these words:</p>
+                </div>
+                <div class="advance-right-input">
+                    <input type="text" name="as_q" class="form-control">
+                </div>
+            </div>
+
+            <div  class = "advance-input">
+                <div class="advance-left-labels">
+                    <p class="label-font">this exact word or phrase:</p>
+                </div>
+                <div class="advance-right-input">
+                    <input type="text" name="as_epq" class="form-control">
+                </div>
+            </div>
+
+            <div  class = "advance-input">
+                <div class="advance-left-labels">
+                    <p class="label-font">any of these words:</p>
+                </div>
+                <div class="advance-right-input">
+                    <input type="text" name="as_oq" class="form-control">
+                </div>
+            </div>
+
+            <div  class = "advance-input">
+                <div class="advance-left-labels">
+                    <p class="label-font">none of these words:</p>
+                </div>
+                <div class="advance-right-input">
+                    <input type="text" name="as_eq" class="form-control">
+                </div>
+            </div>
+            <div class="adv-button-div">
+                <input type="submit" value="Advanced Search" class="adv-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
