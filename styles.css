@@ -1,0 +1,138 @@
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item{
+    margin: 10px;
+}
+
+a:link {
+    color : black;
+    text-decoration: none;
+}
+
+a:visited {
+    color : black;
+}
+
+a:hover {
+    color : black;
+}
+
+a:active {
+    color : black;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-search{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: 584px;
+    max-width: 584px;
+    margin-top: 30px;
+}
+
+.google-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.advanced-search{
+    margin-left: 10px;
+}
+
+.advance-google{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.border{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.div-advanced{
+    margin: 50px;
+}
+
+.advanced-search2{
+    font-size: 16px;
+    color: #333333;
+}
+
+.advance-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.advance-left-labels{
+    width: 200px;
+}
+
+.advance-right-input{
+    width: 385px;
+}
+
+.label-font{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.adv-button-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
+
+}
+
+.adv-button{
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
